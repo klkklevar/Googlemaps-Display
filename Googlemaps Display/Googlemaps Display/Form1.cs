@@ -24,6 +24,7 @@ namespace Googlemaps_Display
            
             try
             {
+                // A queryadress must be properly
                 StringBuilder queryadress = new StringBuilder();
                 queryadress.Append("http://maps.google.com/maps?q=");
 
