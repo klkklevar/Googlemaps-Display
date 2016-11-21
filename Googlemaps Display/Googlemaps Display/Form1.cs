@@ -16,5 +16,44 @@ namespace Googlemaps_Display
         {
             InitializeComponent();
         }
+
+        private void find_data_Click(object sender, EventArgs e)
+        {
+            string street = txt_street.Text;
+            string city = txt_city.Text;
+           
+            try
+            {
+                StringBuilder queryadress = new StringBuilder();
+                queryadress.Append("http://maps.google.com/maps?q=");
+
+                if (street != string.Empty)
+                {
+                    queryadress.Append(street + "," + "+");
+                }
+
+                if (city != string.Empty)
+                {
+                    queryadress.Append(city + "," + "+");
+                }
+                              
+                
+                webBrowser1.Navigate(queryadress.ToString());
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message.ToString(), "Error");
+            }
+        }
+
+        private void webBrowser2_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
