@@ -1,3 +1,16 @@
 # Googlemaps-Display
-I create this project using visual studio 2015 with C# code (Forms aplications), how you can display googlemaps from vs.
-You can download, edit or clone a project.
+
+## Version 1.0.0
+
+I create this demo project into visual studio 2015 with C# code (Forms aplications).
+
+A sample readme for how you can display googlemaps direct from vs
+
+## License & copyright
+Khalid L Klevar
+
+
+
+
+
+
