@@ -7,7 +7,8 @@ I create this demo project into visual studio 2015 with C# code (Forms aplicatio
 A sample readme for how you can display googlemaps direct from vs
 
 ## License & copyright
-Khalid L Klevar
+
+KlkKlevar
 
 
 
