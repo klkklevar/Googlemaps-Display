@@ -8,7 +8,7 @@ A sample readme for how you can display googlemaps direct from vs
 
 ## License & copyright
 
-KlkKlevar
+Khalid Klevar
 
 
 
